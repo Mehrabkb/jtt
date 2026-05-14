@@ -203,3 +203,156 @@ body .hero img {
     display: none;
   }
 }/*# sourceMappingURL=index-style.css.map */
+
+.category-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eef5ff;
+    padding: 12px 18px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 12px;
+}
+
+li {
+    padding: 8px 16px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    list-style: none;
+    align-items: center;
+    cursor: pointer;
+    margin: 0;
+    margin-left: 20px;
+    color: #0b2e55;
+    display: flex;
+    gap: 18px;
+    font-size: 18px;
+    font-weight: 500;
+    border-left: 1px solid #ccc;
+    padding-left: 5px;
+}
+
+.tabs {
+    cursor: pointer;
+    color: #333;
+    padding: 4px 8px;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    font-size: 15px;
+}
+
+.tab:hover {
+    color: #0d47a1;
+}
+
+.tab.active {
+    background: white;
+    color: #0d47a1;
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+
+}
+
+
+
+.left-section .see-all {
+    color: #0d47a1;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+
+.course-list {
+    display: grid;
+    gap: 30px;
+    font-family: sans-serif;
+    display: flex;
+
+}
+
+.course-list .course-card {
+    width: 80%;
+}
+
+.course-card {
+    background: white;
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.2s;
+}
+
+.course-card:hover {
+    transform: translate(-5px);
+}
+
+.thumb {
+    width: 300px;
+    height: 170px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.teacher {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    color: gray;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 7px;
+
+}
+
+
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    
+}
+
+.discount {
+    background: #ff4d4d;
+    width: 8%;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.new-price {
+    font-weight: bold;
+    color: #333;
+    margin: 8px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 5px;
+}
